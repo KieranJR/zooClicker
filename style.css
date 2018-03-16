@@ -1,0 +1,97 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 62.5%;
+	color: orange;
+	background-image: url("jungle.jpg");
+	background-repeat: no-repeat;
+}
+
+main {
+	width: 80%;
+	margin: 0 auto;
+}
+
+h1, h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 700;
+	color: orange;
+}
+
+h1 {
+	font-size: 6em;
+}
+
+h2 {
+	font-size: 4em;
+}
+
+p {
+	font-size: 2em;
+}
+
+.menu ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.menu li {
+	display: inline;
+	font-size: 4em;
+	text-align: center;
+	padding-right: 20px;
+}
+
+.menu a {
+	text-decoration: none;
+	font-weight: 800;
+}
+
+.menu a:hover {
+	border-bottom: 4px solid grey;
+}
+
+article {
+	height: 100vh;
+	padding-bottom: 80px;
+}
+#game, #score{
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: orange;
+}
+
+#score {
+	font-size: 2em;
+}
+
+#clickerbutton {
+	font-size: 5em;
+	font-family: 'Russo One', sans-serif;
+	width:300px;
+	height:300px;
+	border-radius: 200px;
+	background-image: url("monkey.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#clickerbutton:active {
+	transition: border 1s;
+	border: 80px orange;
+}
+#clickerbutton:focus {
+	outline: 0px;
+}
+
+.logo {
+	font-size: 6em;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-family: 'Russo One', sans-serif;
+	color: white;
+}
